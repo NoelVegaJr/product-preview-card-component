@@ -45,13 +45,9 @@ body {
 
 .product-details {
   padding: 3rem;
-}
-
-.product-category,
-.product-name,
-.product-description,
-.product-price {
-  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .product-category,
@@ -95,6 +91,7 @@ body {
 
 .product-price-old {
   text-decoration: line-through;
+  font-size: 1.3rem;
 }
 
 .btn {
@@ -141,14 +138,8 @@ body {
     height: 100%;
   }
 
-  .product-category,
-  .product-name,
-  .product-description,
-  .product-price {
-    margin-bottom: 2rem;
-  }
-
   .product-details {
     padding: 2.5rem;
+    gap: 1.8rem;
   }
 }
